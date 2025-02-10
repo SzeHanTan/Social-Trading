@@ -1,0 +1,4 @@
+/* Your existing styles */
+@import 'StrategyMatching.css';
+/* Your friend's styles */
+@import 'their-styles.css'; 

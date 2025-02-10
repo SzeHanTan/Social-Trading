@@ -1,0 +1,56 @@
+.forum-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.forum-post {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.forum-post h2 {
+  margin-top: 0;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.comments-section h3 {
+  margin-bottom: 10px;
+}
+
+.comment {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.add-comment {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.add-comment textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.add-comment button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.add-comment button:hover {
+  background-color: #0056b3;
+}

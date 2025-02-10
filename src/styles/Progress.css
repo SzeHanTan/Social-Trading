@@ -1,0 +1,19 @@
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.progress-container svg {
+  transform: rotate(-90deg);
+}
+
+.progress-text {
+  position: absolute;
+  font-size: 1.5em;
+  font-weight: bold;
+}

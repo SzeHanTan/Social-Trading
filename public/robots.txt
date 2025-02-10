@@ -1,0 +1,6 @@
+User's request for the contents of the file: /my-react-app/my-react-app/public/robots.txt
+
+User's project specification indicates that this file is used to control how search engines index the site. Here are the contents for the robots.txt file:
+
+User-agent: *
+Disallow: /

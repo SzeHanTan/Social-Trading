@@ -1,0 +1,60 @@
+/* Modal.css */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.overlay.active {
+  display: block;
+}
+
+.modal {
+  position: fixed; /* Changed to fixed to position relative to the viewport */
+  bottom: 0; /* Position it at the bottom of the viewport */
+  left: 0;
+  width: 100%;
+  height: 50%; /* Cover half of the page */
+  background: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(100%); /* Initially hide the modal */
+}
+
+.modal.active {
+  display: flex;
+  transform: translateY(0); /* Slide up the modal when active */
+}
+
+.modal-header {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-content {
+  padding: 10px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+}
